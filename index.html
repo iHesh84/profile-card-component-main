@@ -22,16 +22,35 @@
   <body>
     <main>
       <article class="profile__card">
+        <div class="bg">
+          <img class="profile__bg" src="/images/bg-pattern-card.svg" alt="" />
+        </div>
+        <div class="avatar">
+          <img
+            class="profile__icon"
+            src="/images/image-victor.jpg"
+            alt="Profile Icon"
+          />
+        </div>
         <span class="profile__name">Victor Crest</span>
         <span class="profile__age">26</span>
         <p class="profile__area">London</p>
+
+        <hr class="solid" />
+
         <div class="profile__stats">
-          <p class="profile__followers">80K</p>
-          <p class="profile__likes">803K</p>
-          <p class="profile__photos">1.4K</p>
-          <p class="tags">Followers</p>
-          <p class="tags">Likes</p>
-          <p class="tags">Photos</p>
+          <div class="followers">
+            <p class="numbers">80K</p>
+            <p class="stats">Followers</p>
+          </div>
+          <div class="likes">
+            <p class="numbers">803K</p>
+            <p class="stats">Likes</p>
+          </div>
+          <div class="photos">
+            <p class="numbers">1.4K</p>
+            <p class="stats">Photos</p>
+          </div>
         </div>
       </article>
     </main>
